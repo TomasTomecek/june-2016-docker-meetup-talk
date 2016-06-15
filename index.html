@@ -31,10 +31,19 @@
 
 				<section>
 					<h2>How do you manage your containers?</h2>
+					<aside class="notes">
+						<ul>
+							<li>let me guess: official docker client</li>
+							<li>verbose</li>
+							<li>docker ps, images, start, stop, logs...</li>
+							<li>aliases</li>
+							<li>still verbose</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section>
-					<h3>This is how I do it</h3>
+					<h3>This is how I manage mine</h3>
 					<img src="img/sen-preview.png">
 				</section>
 
@@ -42,11 +51,11 @@
 					<h3>Features</h3>
 					<ul>
 						<li>Perform <em>any</em> operation on your containers and images</li>
-						<li class="fragment">Real-time updates</li>
+						<li class="fragment">Searching and filtering</li>
 						<li class="fragment">Dashboard-like view for containers and images</li>
 						<li class="fragment">Get logs real-time</li>
-						<li class="fragment">Searching and filtering</li>
 						<li class="fragment">Verbose notifications: what happened and how long it took</li>
+						<li class="fragment">Real-time updates</li>
 						<li class="fragment">Layering</li>
 						<li class="fragment">vim keybinds!</li>
 						<li class="fragment">Runs in a docker container</li>
@@ -64,16 +73,51 @@
 				</section>
 
 				<section>
+					<h3>Container dashboard</h3>
+					<img src="img/sen-container-info.png">
+				</section>
+
+				<section>
+					<h3>Filtering & notifications</h3>
+					<img src="img/sen-filtering-notif-rmi.png">
+				</section>
+
+				<section>
+					<h3>TODO</h3>
+					<ul>
+						<li><code>docker exec</code> support</li>
+						<li class="fragment">interaction with registry
+							<ul>
+								<li>does my image have an update?</li>
+							</ul>
+						</li>
+						<li class="fragment">Configuration</li>
+						<li class="fragment">Volumes, networks</li>
+						<li class="fragment">I don't know</li>
+					</ul>
+				</section>
+
+				<section>
 					<h3>Under the hood</h3>
 					<ul>
 						<li class="fragment">Python 3</li>
 						<li class="fragment">docker-py and urwid</li>
-						<li class="fragment">multithreaded</li>
+						<li class="fragment">Multithreaded</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Any contribution is very welcome</h3>
+					<ul>
+						<li class="fragment">Feedback</li>
+						<li class="fragment">Issues</li>
+						<li class="fragment">Pull requests</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>github.com/TomasTomecek/sen</h2>
+					<h2 class="fragment">Questions are welcome</h2>
 				</section>
 
 			</div>
